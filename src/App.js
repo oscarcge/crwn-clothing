@@ -32,7 +32,8 @@ class App extends React.Component {
             id: snapShot.id,
             ...snapShot.data() 
           });
-          console.log(this.state)
+          // para saber el usuario que esta logueadogit
+          // console.log(this.state)
         });
         
       }
