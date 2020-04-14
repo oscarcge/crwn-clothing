@@ -1,0 +1,30 @@
+.cart-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+    .shopping-icon {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .item-count {
+      position: absolute;
+      font-size: 10px;
+      font-weight: bold;
+      bottom: 12px;
+    }
+
+}
+  
